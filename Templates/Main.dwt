@@ -76,7 +76,7 @@ body {
   <tr>
     <th width="250" class="homebuttom" scope="col"><a href="../homepage.html">Home</a></th>
     <th width="250" class="pwinners" scope="col"><a href="../pastwards/Main.html">Past Award Winners</a></th>
-    <th width="250" class="ec" scope="col">Eastern Conference</th>
+    <th width="250" class="ec" scope="col"><a href="../EC/home.html">Eastern Conference</a></th>
     <th width="230" class="wc" scope="col">Western Conference</th>
   </tr>
 </table>
@@ -88,12 +88,12 @@ body {
 <table width="1000" height="591">
   <tr>
     <th width="250" class="content" scope="row"><!-- TemplateBeginIf cond="_document['About The Nba']" -->
-      <p>About The NBA</p>
+      <h2>About The NBA</h2>
       <p><a href="../about the nba/commisioner.html">Meet the Commisioner</a></p>
       <p><a href="../about the nba/nbacares.html">NBA Cares Organization</a></p>
       <p><a href="../about the nba/nba.html">National Basketball Association</a></p>
     <!-- TemplateEndIf --><!-- TemplateBeginIf cond="_document['Past Award Winners']" -->
-      <p>Past Award Winners</p>
+      <h2>Past Award Winners</h2>
       <p><a href="../pastwards/nba.html">NBA Champions</a></p>
       <p><a href="../pastwards/mvp.html">Most Valuable Player</a></p>
       <p><a href="../pastwards/defensive.html">Defensive Player of the Year</a></p>
@@ -101,7 +101,28 @@ body {
       <p><a href="../pastwards/rookie.html">Rookie of the Year</a></p>
       <p><a href="../pastwards/improved.html">Sportsmanship Award</a></p>
       <p><a href="../pastwards/coach.html">Coach of the Year</a></p>
-    <!-- TemplateEndIf --><!-- TemplateBeginIf cond="_document['eastern conference']" -->eastern conference<!-- TemplateEndIf --><!-- TemplateBeginIf cond="_document['western conference']" -->
+    <!-- TemplateEndIf --><!-- TemplateBeginIf cond="_document['eastern conference']" -->
+    <h2>Eastern Conference</h2>
+    <h3>Atlantic Divison </h3>
+    <p><a href="../EC/toronto.html">Toronto Raptors </a></p>
+    <p><a href="../EC/boston.html">Boston Celtics</a></p>
+    <p><a href="../EC/nets.html">Brooklyn Nets </a></p>
+    <p><a href="../EC/philly.html">Philadelphia 76ers</a></p>
+    <p><a href="../EC/knicks.html">New York Knicks</a></p>
+    <h3>Central Division</h3>
+    <p><a href="../EC/cavs.html">Cleveland Cavaliers</a></p>
+    <p><a href="../EC/bulls.html">Chicago Bulls </a></p>
+    <p><a href="../EC/bucks.html">Milwaukee Bucks </a></p>
+    <p>I<a href="../EC/pacers.html">ndiana Pacers </a></p>
+    <p><a href="../EC/pistons.html">Detroit Pistons </a></p>
+    <h3>Southeast Division</h3>
+    <p><a href="../EC/hawks.html">Atlanta Hawks </a></p>
+    <p><a href="../EC/washinton.html">Washington Wizards </a></p>
+    <p><a href="../EC/heat.html">Miami Heat </a></p>
+    <p><a href="../EC/hornets.html">Charlotte Hornets </a></p>
+    <p><a href="../EC/magic .html">Orlando Magic </a></p>
+    <p>&nbsp;</p>
+    <!-- TemplateEndIf --><!-- TemplateBeginIf cond="_document['western conference']" -->
     <p>&nbsp;</p>
     <p>western conference</p>
     <!-- TemplateEndIf --></th>
