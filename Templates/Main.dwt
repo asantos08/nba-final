@@ -47,12 +47,31 @@ th {
 .banner {
 	border: medium ridge #009;
 }
+h1 {
+	color: #00F;
+	text-align: center;
+}
+.image {
+	margin: 10px;
+	border: thick ridge #FC0;
+}
+.text {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #00F;
+	text-align: left;
+	word-spacing: normal;
+	margin: 10px;
+}
+body {
+	margin-left: 400px;
+}
 </style>
 <!-- TemplateBeginEditable name="head" -->
 <!-- TemplateEndEditable -->
 </head>
 
-<body>
+<body background="../photos/maainpages /nba.jpg">
 <table width="1000">
   <tr>
     <th width="250" class="homebuttom" scope="col"><a href="../homepage.html">Home</a></th>
